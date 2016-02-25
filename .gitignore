@@ -15,3 +15,4 @@
 /log/*
 !/log/.keep
 /tmp
+solr/solr54_sunspot224_development/data
