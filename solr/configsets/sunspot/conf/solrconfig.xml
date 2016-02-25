@@ -177,7 +177,7 @@
        <openSearcher>false</openSearcher>
      </autoCommit>
 
-    <!-- softAutoCommit is like autoCommit except it causes a
+         softAutoCommit is like autoCommit except it causes a
          'soft' commit which only ensures that changes are visible
          but does not ensure that data is synced to disk.  This is
          faster and more near-realtime friendly than a hard commit.
