@@ -1,0 +1,12 @@
+<%= Rails.env %>:
+  solr:
+    hostname: localhost
+    port: 8983
+    path: /solr/<%= "#{Rails.root.basename}_#{Rails.env}" %>
+    ########################################
+    # if you need to use one Solr at one port(ex: 8983) from
+    # multiple Rails apps, move solr directory
+    # somewhere accessible, and point the path here
+    # ex: Rails.root.dirname.join "solr"
+    # solr_home: /full/path/to/solr/directory/outside/of/rails/app
+    ########################################
